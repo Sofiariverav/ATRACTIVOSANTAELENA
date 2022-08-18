@@ -1,0 +1,40 @@
+#header {
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+    position: fixed;
+    z-index: 1;
+}
+ 
+ul, ol{
+    list-style: none;
+}
+
+.nav li a {
+background-color: #000000af;
+color: #fafbff;
+text-decoration: none;
+padding: 10px  15px;
+display: block;
+}
+
+.nav li a:hover{
+background-color: rgb(143, 207, 233);
+}
+
+
+
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 140 px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
