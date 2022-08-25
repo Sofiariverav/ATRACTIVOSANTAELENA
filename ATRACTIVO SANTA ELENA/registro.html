@@ -12,22 +12,60 @@
 
 <body>
     <header>
-        <div class="container_menu">
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li class="lista"><a href="inicio.html">Inicio</a></li>
-                        <li class="lista"><a href="contactos.html">Contactos</a></li>
-                        <li class="lista" id="selected"><a href="#">Registrarse</a></li>
-                        <li class="lista"><a href="sesion.html">Iniciar Sesión</a></li>
-                        <li class="lista"><a href="galeria.html">Galería de Fotos</a></li>
-                    </ul>
-                </nav>
-            </div>
+         <!--CONTENEDOR DEL MENÚ-->
+         <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#" id="selected">Inicio</a> </li>
+                    <li><a href="#"></a> Servicios </li>
+                    <li><a href="#"></a> Nosotros </li>
+                    <li><a href="#"></a> Contacto </li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <div class="form-registro">
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION<br>DEL EMPLEADO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> @gmail.com</p>
+                <p><span class="fa fa-mobile"></span> 6578889</p>
+            </section>
+        </section>
+
+        <form action="" class="form_contact">
+            <h2>INGRESE LOS DATOS</h2>
+            <div class="user_info">
+
+                <label for="names">Codigo de entrada*</label>
+                <input type="text" id="Numero de docuemento">
+
+                <label for="names">Nombres y apellidos *</label>
+                <input type="text" id="names">
+
+                <label for="mensaje">Número de documento *</label>
+                <textarea id="mensaje"></textarea>
+
+                <label for="phone">Telefono / Celular</label>
+                <input type="text" id="phone">
+
+                <label for="email">Correo electronico *</label>
+                <input type="text" id="email">
+
+                
+
+                <input type="button" value="GUARDAR" id="btnSend">
+            </div>
+        </form>
+
+    </section>
+
+    <!--<div class="form-registro">
         <div class="registrar">
             <form id="form">
                 <h1>Registrarse</h1>
@@ -52,7 +90,7 @@
                 <button type="submit">Registrarse</button>
             </form>
         </div>
-    </div>
+    </div>-->
 </body>
 
 </html>
