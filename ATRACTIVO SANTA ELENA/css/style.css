@@ -21,6 +21,7 @@ header{
 .menu{
     display: flex;
     align-items: center;
+    background: #678983;
 }
  .menu ul{
     display: flex;
@@ -39,7 +40,7 @@ header{
 }
 
 li {
-    background: #F6615D;
+    background: #67898300;
     padding: 10px 40px;
     border-radius: 50px;
     font-size: 10px;
