@@ -1,0 +1,35 @@
+.carousel-item {
+    background-color: blueviolet;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block; /*para que los elementos queden seguidos*/
+    cursor: pointer;
+    transition: 450ms all; /*El tiempo de transición*/
+    transform-origin: center left; /*Para que no se corra el contenedor*/
+    position: relative;
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #26272b;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+    }
+    /*MENU*/
+
+.header {
+    align-items: center;
+    background: #26272b;
+    color: white;       
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+    font-size: 14px;
+    }
+
