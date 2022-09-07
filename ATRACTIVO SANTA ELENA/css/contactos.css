@@ -60,6 +60,7 @@
 .imagen:hover .overlay{
     height:100%;
     cursor: pointer;
+    filter: opacity(.5);
 }
 
 @media screen and (max-width:1000px){

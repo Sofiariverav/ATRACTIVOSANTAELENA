@@ -22,9 +22,6 @@ display: block;
 background-color: rgb(143, 207, 233);
 }
 
-
-
-
 .nav > li {
     float: left;
 }

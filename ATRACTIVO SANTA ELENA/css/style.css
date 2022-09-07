@@ -1,6 +1,6 @@
 *{
-    margin: 0; /*Para quitar la mergen que viene por defecto*/
-    padding: 0; /*Para quitar la mergen que viene por defecto*/
+    margin: 0; /*Para quitar la meagen que viene por defecto*/
+    padding: 0; /*Para quitar la margen que viene por defecto*/
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
 }
